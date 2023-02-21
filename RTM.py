@@ -1,6 +1,5 @@
 import numpy as np
-import numpy.linalg as nl
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 class rvec:
     def __init__(self, x, a, z=0):
@@ -46,7 +45,9 @@ class rvec_list:
     def __invert__(self):
         return self.rvecs[-1]
 
-# MainEntry
+# Examples
+
+'''
 n_air = 1.0
 n_N_BK7 = 1.5106
 rad_curv = 38.6
@@ -77,3 +78,4 @@ for i in [0,f,c_thick,fb,fb,c_thick,f]:
     line_pos += i
     plt.plot(line_pos,[-25.4/2,25.4/2],'k')
 plt.show()
+'''
