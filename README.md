@@ -11,12 +11,15 @@ A library for calculate Ray Transfrom Matrix.
 A class of ray vector with z(propagation direction) coordinate.
 
 x : scalar
+
     X coordinate from propagation axis
 
 a : scalar
+
     Beam propagation angle from propagation axis. Use radian unit
 
 z : scalar
+
     Propagated(z) position
 
 ## Example
