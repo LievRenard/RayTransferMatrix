@@ -1,28 +1,3 @@
-# RayTransferMatrix
-
-A library for calculate Ray Transfrom Matrix.
-
-## Usage
-
-![](https://en.wikipedia.org/wiki/File:RayTransferMatrixDefinitions.svg)
-
-### class rvec(x, a, z = 0)
-
-A class of ray vector with z(propagation direction) coordinate.
-
-x : scalar
-    X coordinate from propagation axis
-
-a : scalar
-    Beam propagation angle from propagation axis. Use radian unit
-
-z : scalar
-    Propagated(z) position
-
-## Example
-
-4F system with 1" lenses with 10cm focus
-```python
 import numpy as np
 import matplotlib.pyplot as plt
 import RTM
@@ -56,8 +31,3 @@ for i in [0,f,c_thick,fb,fb,c_thick,f]:
     line_pos += i
     plt.plot(line_pos,[-25.4/2,25.4/2],'k')
 plt.show()
-```
-
-Result:
-
-![](Figure_1.png)
