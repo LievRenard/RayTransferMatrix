@@ -4,7 +4,7 @@ A library for calculate Ray Transfrom Matrix.
 
 ## Usage
 
-![](https://en.wikipedia.org/wiki/File:RayTransferMatrixDefinitions.svg)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/RayTransferMatrixDefinitions.svg/1920px-RayTransferMatrixDefinitions.svg.png)
 
 ### class rvec(x, a, z = 0)
 
@@ -12,15 +12,15 @@ A class of ray vector with z(propagation direction) coordinate.
 
 x : scalar
 
-    X coordinate from propagation axis
+- X coordinate from propagation axis
 
 a : scalar
 
-    Beam propagation angle from propagation axis. Use radian unit
+- Beam propagation angle from propagation axis. Use radian unit
 
 z : scalar
 
-    Propagated(z) position
+- Propagated(z) position
 
 ## Example
 
